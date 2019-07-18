@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+
+    <com.davis.searchview.SearchEditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/search_shape_bg"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:imeOptions="actionSearch"
+        android:drawableStart="@drawable/search"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:hint="搜索"
+        android:layout_margin="15dp"
+        android:id="@+id/search">
+    </com.davis.searchview.SearchEditText>
+</LinearLayout>
